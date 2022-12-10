@@ -1,0 +1,127 @@
+@import "node_modules/antd/lib/style/themes/default.less";
+@import "node_modules/antd/dist/antd.less";
+@import "styles/colors";
+
+
+// Base
+// ---
+@primary-color: @brand-default;
+@link-color: @brand-default;
+@success-color: @highlight-green-default;
+@warning-color: @highlight-orange-default;
+@error-color: @highlight-red-default;
+@btn-danger-color: @highlight-red-default;
+@btn-danger-border: @highlight-red-default;
+@heading-color: @label-promotional;
+@text-color: @label-default;
+@text-color-secondary: @label-secondary;
+@disabled-color: @highlight-gray-dark;
+@border-color-base: @divider-default;
+@highlight-color: @highlight-red-default;
+
+
+// Base Scaffolding Variables
+// ---
+@font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@border-radius-base: 6px;
+@border-radius-sm: 2px;
+@btn-height-lg: 34px;
+@btn-font-size-lg: 14px;
+@btn-padding-horizontal-lg: 20px;
+
+
+// Form
+// ---
+@label-required-color: @highlight-red-default;
+@label-color: @label-promotional;
+@form-warning-input-bg: @bg-default;
+@form-item-margin-bottom: 12px;
+@form-item-trailing-colon: true;
+@form-vertical-label-padding: 0 0 0px;
+@form-vertical-label-margin: 0;
+@form-item-label-font-size: 13px;
+@form-item-label-height: 24px;
+@form-item-label-colon-margin-right: 8px;
+@form-item-label-colon-margin-left: 2px;
+@form-error-input-bg: @bg-default;
+
+// Input
+// ---
+@input-height-base: 40px;
+@input-height-lg: 44px;
+@input-height-sm: 36px;
+@input-padding-horizontal: 12px;
+@input-padding-horizontal-base: 12px;
+@input-padding-horizontal-sm: 10px;
+@input-padding-horizontal-lg: 14px;
+@input-padding-vertical-base: 6px;
+@input-padding-vertical-sm: 5px;
+@input-padding-vertical-lg: 8px;
+@input-placeholder-color: @label-secondary;
+@input-color: @label-default;
+@input-icon-color: @label-default;
+@input-border-color: @divider-default;
+@input-bg: @bg-default;
+@input-number-hover-border-color: @divider-default;
+@input-number-handler-active-bg: #f4f4f4;
+@input-number-handler-hover-bg: @brand-default;
+@input-number-handler-bg: @bg-default;
+@input-number-handler-border-color: @divider-default;
+@input-addon-bg: @bg-default;
+@input-hover-border-color: @brand-default;
+@input-disabled-bg: @highlight-gray-default;
+@input-outline-offset: 0 0;
+@input-icon-hover-color: fade(@black, 85%);
+@input-disabled-color: @highlight-gray-default;
+
+
+@zindex-picker-panel: 1002;
+
+@table-padding-vertical-md: 12px;
+@table-padding-horizontal-md: 14px;
+
+@menu-collapsed-width: 64px;
+
+.ant-input-number, .ant-input-number-affix-wrapper {
+    width: 100%;
+    min-width: 144px;
+}
+
+.ant-form-item .ant-picker {
+    width: 100%;
+    min-width: 144px;
+}
+
+.modules .ant-drawer-body {
+    padding: 16px 20px !important;
+}
+
+.ant-picker-calendar {
+    border-radius: 0.5rem;
+}
+
+.ant-form-item-label {
+    text-align: left !important;
+}
+
+.ant-image-preview-img {
+    display: inline;
+}
+
+.ant-modal-content {
+    border-radius: 12px;
+}
+
+.row-dragging {
+    background: #fafafa;
+    border: 1px solid #ccc;
+}
+
+.row-dragging td {
+    padding: 16px;
+}
+
+.row-dragging .drag-visible {
+    visibility: visible;
+}

@@ -1,0 +1,79 @@
+@import "styles/colors";
+
+
+.ant-tabs-tab {
+    padding: 8px 0;
+    font-size: 15px;
+}
+
+.ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 24px;
+}
+
+.ant-table.ant-table-bordered {
+
+    .ant-table-container {
+        border-left: 1px solid @divider-secondary !important;
+    }
+
+    table {
+        border-top: 1px solid @divider-secondary !important;
+    }
+
+    .ant-table-cell-row-hover {
+        background-color: #F3F3F3 !important;
+    }
+
+    .table-row-active {
+        background-color: #EBF9F3 !important;
+
+        .ant-table-cell-fix-left, .ant-table-cell-fix-right {
+            background-color: #EBF9F3 !important;
+        }
+
+        .ant-table-cell-row-hover {
+            background-color: #CEEFE2 !important;
+        }
+    }
+
+    .not-hoverable {
+        .ant-table-cell-row-hover {
+            background-color: #FFF !important;
+        }
+
+        &.table-row-active {
+            .ant-table-cell-row-hover {
+                background-color: #EBF9F3 !important;
+            }
+        }
+    }
+
+    .ant-table-thead {
+
+        .ant-table-cell {
+            padding: 10px 14px !important;
+            font-size: 15px !important;
+            font-weight: 500 !important;
+            line-height: 20px !important;
+            background-color: @bg-default !important;
+            border-right: 1px solid @divider-secondary !important;
+            border-bottom: 1px solid @divider-secondary !important;
+        }
+
+    }
+
+    .ant-table-tbody, .ant-table-summary {
+
+        .ant-table-cell {
+            font-size: 15px !important;
+            line-height: 20px !important;
+            padding: 6px 10px !important;
+            border-right: 1px solid @divider-secondary !important;
+            border-bottom: 1px solid @divider-secondary !important;
+        }
+
+    }
+
+}
+
+

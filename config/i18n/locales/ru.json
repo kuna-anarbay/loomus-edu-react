@@ -1,0 +1,404 @@
+{
+    "button": {
+        "add": "Добавить",
+        "create": "Создать",
+        "delete": "Удалить",
+        "edit": "Редактировать",
+        "finish": "Завершить",
+        "import": "Импортировать",
+        "reorder": "Изменить порядок",
+        "save": "Сохранить",
+        "view": "Перейти",
+        "open": "Открыть",
+        "send": "Отправить"
+    },
+    "common": {
+        "from": "Из"
+    },
+    "component": {
+        "confirm-delete": {
+            "title": "Вы уверены, что хотите удалить выбранный элемент?",
+            "confirm": "Подтвердить",
+            "cancel": "Отменить"
+        },
+        "course-card": {
+            "from": "От",
+            "completed": "Пройдено",
+            "expired": "Доступ к курсу истек"
+        },
+        "filter": {
+            "none-selected": "Не выбран"
+        },
+        "header-bar": {
+            "courses": "Курсы",
+            "log-out": "Выйти",
+            "profile": "Профиль",
+            "sign-in": "Войти",
+            "sign-up": "Регистрация"
+        },
+        "homework": {
+            "title": "Задание",
+            "deadline": "Дедлайн"
+        },
+        "homework-resources": {
+            "title": "Материалы задания"
+        },
+        "homework-submission": {
+            "points": "Вы набрали",
+            "submitted-at": "Вы завершили задание в"
+        },
+        "homework-submission-resources": {
+            "title": "Материалы работы",
+            "attach": "Прикрепить материал"
+        },
+        "import-students": {
+            "title": "Импорт учеников",
+            "template": "Шаблон"
+        },
+        "lesson": {
+            "index": "Урок",
+            "time-to-pass": "Минут на изучение",
+            "next-lesson": "Следующий урок"
+        },
+        "lesson-packages": {
+            "title": "Урок доступен по тарифам"
+        },
+        "lesson-resources": {
+            "title": "Материалы урока"
+        },
+        "lesson-video": {
+            "title": "Видео",
+            "youtube": "Ссылка Youtube",
+            "upload": "Загрузить видео"
+        },
+        "module": {
+            "index": "Модуль",
+            "add": "Добавить урок"
+        },
+        "modules": {
+            "title": "Модули",
+            "add": "Добавить модуль"
+        },
+        "packages": {
+            "title": "Тарифы"
+        },
+        "package": {
+            "homework-available": "Есть доступ к заданиям"
+        },
+        "sessions": {
+            "title": "Сессии"
+        },
+        "staffs": {
+            "title": "Сотрудники"
+        },
+        "students": {
+            "title": "Ученики",
+            "search": "Поиск по имени или номеру телефона"
+        },
+        "student-info": {
+            "full-name": "Полное имя",
+            "email": "Email"
+        },
+        "student-homework-submission": {
+            "submitted-at": "Задание завершено в",
+            "notes": "Комментарии к работе"
+        },
+        "student-homework-submissions": {
+            "title": "Работы учеников"
+        },
+        "student-submission-resources": {
+            "title": "Материалы работы"
+        },
+        "subscription": {
+            "title": "Ваша подписка",
+            "expires-at": "Истекает в",
+            "upgrade": "Обновить",
+            "resource-size": "Обьем хранилища",
+            "students-count": "Количество учеников",
+            "videos-count": "Количество видео"
+        },
+        "upload-box": {
+            "title": "Нажмите или перетащите файл в эту область, чтобы загрузить"
+        }
+    },
+    "count": {
+        "lesson": "Урок",
+        "lessonsCount": "Уроков",
+        "lessonsCount4": "Урока",
+        "resource": "Материал",
+        "resourcesCount": "Материалов",
+        "resourcesCount4": "Материала",
+        "result": "Результат",
+        "resultsCount": "Результатов",
+        "resultsCount4": "Результата"
+    },
+    "enum": {
+        "gender": {
+            "label": "Пол",
+            "male": "Мужчина",
+            "female": "Женщина",
+            "not-selected": "Не выбран"
+        },
+        "homework-submission-status": {
+            "all": "Все статусы",
+            "pending": "В ожидании",
+            "accepted": "Принята",
+            "declined": "Отказано"
+        },
+        "lesson-status": {
+            "active": "Активный",
+            "visible": "Виден на списке",
+            "draft": "Черновик"
+        },
+        "role": {
+            "student": "Ученик",
+            "owner": "Владелец",
+            "admin": "Администратор",
+            "assistant": "Ассистент"
+        },
+        "session-source": {
+            "web": "Компьютер",
+            "ios": "iOS приложение",
+            "android": "Android приложение"
+        },
+        "student-status": {
+            "label": "Статус ученика",
+            "active": "Активный",
+            "blocked": "Заблокированный",
+            "finished": "Завершенный"
+        }
+    },
+    "form": {
+        "edit-homework": {
+            "add": "Добавить задание",
+            "edit": "Редактировать задание",
+            "value": "Задание",
+            "deadline": "Дедлайн"
+        },
+        "edit-course": {
+            "add": "Добавить курс",
+            "edit": "Редактировать курс",
+            "name": "Название",
+            "description": "Описание",
+            "upload-banner": "Загрузить баннер (4x1)"
+        },
+        "edit-lesson": {
+            "add": "Добавить урок",
+            "edit": "Редактировать урок",
+            "name": "Название",
+            "status": "Статус",
+            "description": "Описание",
+            "vimeo-url": "Ссылка Vimeo",
+            "video-url": "Ссылка видео",
+            "video-quality": "Качество",
+            "video-urls": "Ссылки видео",
+            "duration": "Время на изучение",
+            "packages": "Доступно по тарифам"
+        },
+        "edit-lesson-video": {
+            "embed-url": "Ссылка видео"
+        },
+        "edit-module": {
+            "add": "Добавить модуль",
+            "edit": "Редактировать модуль",
+            "name": "Название"
+        },
+        "edit-package": {
+            "add": "Добавить тариф",
+            "edit": "Редактировать тариф",
+            "name": "Название",
+            "homework-available": "Есть доступ к заданиям"
+        },
+        "edit-question": {
+            "add": "Добавить вопрос",
+            "edit": "Редактировать вопрос",
+            "title": "Текст вопроса",
+            "solution": "Решение",
+            "options": "Варианты ответов",
+            "option": "Вариант",
+            "is-correct": "Верный"
+        },
+        "edit-section": {
+            "add": "Добавить раздел",
+            "edit": "Редактировать раздел",
+            "name": "Название"
+        },
+        "edit-staff": {
+            "add": "Добавить сотрудника",
+            "edit": "Редактировать сотрудника",
+            "first-name": "Имя",
+            "last-name": "Фамилия",
+            "phone-number": "Номер телефона",
+            "phone-number-extra": "По данному номеру телефона сотрудник получит доступ в систему после регистрации",
+            "role": "Роль"
+        },
+        "edit-student": {
+            "add": "Добавить ученика",
+            "edit": "Редактировать ученика",
+            "phone-number-extra": "По данному номеру телефона ученик получит доступ в систему после регистрации",
+            "first-name": "Имя",
+            "last-name": "Фамилия",
+            "phone-number": "Номер телефона",
+            "is-active": "Активный",
+            "package": "Тариф",
+            "language": "Язык",
+            "gender": "Пол",
+            "lesson-left-count": "Кол-во доступных уроков"
+        },
+        "edit-user": {
+            "title": "Редактировать данные пользователя",
+            "select-avatar": "Выбрать аватар",
+            "delete-avatar": "Удалить аватар",
+            "first-name": "Имя",
+            "last-name": "Фамилия",
+            "phone-number": "Номер телефона"
+        },
+        "homework-submission": {
+            "title": "Ваша работа",
+            "value": "Ваш ответ"
+        },
+        "reply-homework-submission": {
+            "status": "Статус",
+            "notes": "Комментарии"
+        },
+        "reset-password": {
+            "phone-number": "Номер телефона",
+            "password": "Пароль",
+            "code": "Код подтверждения",
+            "request-code": "Отправить код подтверждения",
+            "reset": "Восстановить"
+        },
+        "sign-in": {
+            "phone-number": "Номер телефона",
+            "password": "Пароль",
+            "sign-in": "Войти"
+        },
+        "sign-up": {
+            "first-name": "Имя",
+            "last-name": "Фамилия",
+            "phone-number": "Номер телефона",
+            "password": "Пароль",
+            "code": "Код подтверждения",
+            "request-code": "Отправить код подтверждения",
+            "sign-up": "Создать аккаунт"
+        }
+    },
+    "page": {
+        "404": {
+            "title": "Страница не найдена",
+            "description": "Страница, которую вы ищете, похоже, не существует",
+            "home": "На главную"
+        },
+        "app": {
+            "title": "Приложение Loomus Academy",
+            "slogan": "Учиться стало проще и доступнее, чем когда-либо \uD83E\uDD18"
+        },
+        "course": {
+            "full-package": "Получить полный доступ",
+            "demo-package": "Вы находитесь на демо тарифе"
+        },
+        "courses": {
+            "title": "Курсы"
+        },
+        "homework": {
+            "title": "Задание"
+        },
+        "lesson": {
+            "title": "Урок",
+            "description": "Описание урока",
+            "instructions": "Вы должны успешно пройти тест и отправить задание(если есть) для прохождения на следующий урок"
+        },
+        "lesson-questions": {
+            "title": "Вопросы учеников"
+        },
+        "privacy": {
+            "title": "Loomus | Политика конфиденциальности"
+        },
+        "reset-password": {
+            "title": "Восстановить пароль",
+            "description": "Создайте новый курс или получите доступ к курсам"
+        },
+        "sign-in": {
+            "title": "Войдите в свой аккаунт",
+            "description": "Создайте новый курс или получите доступ к курсам",
+            "create-account": "Создать новый аккаунт",
+            "dont-have-account": "У вас еще нет аккаунта?",
+            "reset-password": "Забыли пароль?"
+        },
+        "sign-up": {
+            "title": "Создайте свой аккаунт Loomus",
+            "description": "Создайте новый курс или получите доступ к курсам",
+            "sign-in": "Войти",
+            "already-have-account": "У вас уже есть аккаунт?"
+        }
+    },
+    "table": {
+        "students": {
+            "full-name": "Полное имя",
+            "phone-number": "Номер телефона",
+            "email": "Email",
+            "password": "Пароль",
+            "status": "Статус",
+            "is-active": "Активный",
+            "package": "Тариф",
+            "progress": "Прогресс"
+        },
+        "staffs": {
+            "full-name": "Полное имя",
+            "phone-number": "Номер телефона",
+            "email": "Email",
+            "role": "Роль"
+        }
+    },
+    "tabs": {
+        "course": {
+            "lessons": "Уроки",
+            "students": "Ученики",
+            "staffs": "Сотрудники",
+            "packages": "Тарифы",
+            "subscription": "Подписка"
+        },
+        "homework": {
+            "general": "Условие",
+            "submissions": "Работы"
+        },
+        "student": {
+            "lessons": "Прогресс",
+            "sessions": "Сессии"
+        }
+    },
+    "toast": {
+        "error": {
+            "fileSizeLimit": "Размер файла не может превышать %s",
+            "enter-code": "Пожалуйста, заполните код полностью",
+            "enter-email": "Пожалуйста, заполните email полностью",
+            "enter-first-name": "Пожалуйста, заполните имя полностью",
+            "enter-name": "Пожалуйста, заполните поле \"Название\"",
+            "enter-phone": "Пожалуйста, заполните номер телефона полностью"
+        },
+        "success": {
+            "profile-edited": "Профиль успешно обновлен",
+            "saved": "Изменения успешно сохранены",
+            "test-submitted": "Так держать \uD83D\uDD25 Вы завершили данное тестирование"
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
